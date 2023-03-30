@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 5px #888888;
+    background-color: cadetblue;
+    color: white;
+    transition: all 0.4s;
+}
